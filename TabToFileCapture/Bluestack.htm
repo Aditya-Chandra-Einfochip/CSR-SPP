@@ -1,0 +1,975 @@
+<p><font color="#119933"><pre>---- 03:44:44.491 ------------------
+DM_AM_REGISTER_REQ
+    type = 0x0300 (768)
+    phandle = 0x0000 (0)
+    flags = 0x0010 (16)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:44.492 ------------------
+DM_AM_REGISTER_CFM
+    type = 0x0340 (832)
+    phandle = 0x0010 (16)
+    version = 0x0400 (1024)
+    patch_level = 0x0000 (0)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="#119933"><pre>---- 03:44:44.653 ------------------
+RFC_INIT_REQ
+    type = 0x0600 (1536)
+    phandle = 0x000f (15)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:44.654 ------------------
+RFC_INIT_CFM
+    type = 0x0680 (1664)
+    phandle = 0x0010 (16)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="#119933"><pre>---- 03:44:44.678 ------------------
+DM_HCI_READ_LOCAL_VER_INFO_REQ
+    op_code = 0x1001 (4097)
+    cmd_parameter_length = 0x02 (2)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:44.679 ------------------
+DM_HCI_READ_LOCAL_VER_INFO_CFM
+    type = 0x1201 (4609)
+    phandle = 0x0010 (16)
+    status = 0x00 (0)
+    hci_version = 0x09 (9)
+    hci_revision = 0x36aa (13994)
+    lmp_version = 0x09 (9)
+    manuf_name = 0x000a (10)
+    lmp_subversion = 0x36aa (13994)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="#119933"><pre>---- 03:44:44.694 ------------------
+DM_SET_BT_VERSION_REQ
+    type = 0x0301 (769)
+    version = 0x07 (7)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:44.698 ------------------
+DM_SET_BT_VERSION_CFM
+    type = 0x0341 (833)
+    phandle = 0x0010 (16)
+    version = 0x07 (7)
+    status = 0x00 (0)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="#119933"><pre>---- 03:44:44.723 ------------------
+DM_SM_INIT_REQ
+    type = 0x0380 (896)
+    options = 0x03c7 (967)
+    security_mode = 0x04 (4)
+    security_level_default = 0x0000 (0)
+    config = 0x0000 (0)
+    write_auth_enable = 0x000f (15)
+    mode3_enc = 0x02 (2)
+    sm_key_state =
+        ir = 0xf49771b60f96a6ffb5850394eeab5ef1
+        er = 0xf3d0ff52be00fa19a5203cfa7fa16928
+    sm_div_state = 0x0001 (1)
+    sm_sign_counter = 0x00000000 (0)
+    max_enc_key_size_thres = 0x00 (0)
+    min_enc_key_size_thres = 0x00 (0)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:44.724 ------------------
+DM_SM_INIT_CFM
+    type = 0x03c0 (960)
+    phandle = 0x0010 (16)
+    security_mode = 0x04 (4)
+    security_level_default = 0x0937 (2359)
+    config = 0x0000 (0)
+    write_auth_enable = 0x000f (15)
+    mode3_enc = 0x00 (0)
+    status = 0x0000 (0)
+    sm_key_state =
+        ir = 0xf49771b60f96a6ffb5850394eeab5ef1
+        er = 0xf3d0ff52be00fa19a5203cfa7fa16928
+    sm_div_state = 0x0001 (1)
+    sm_sign_counter = 0x00000000 (0)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="#119933"><pre>---- 03:44:44.745 ------------------
+DM_SM_ADD_DEVICE_REQ
+    type = 0x0386 (902)
+    phandle = 0x0010 (16)
+    addrt =
+        type = 0x00 (0) (Public)
+        lap = 0x638c34 (6523956)
+        uap = 0x24 (36)
+        nap = 0xf8ad (63661)
+    privacy = 0x0001 (1)
+    reconnection_bd_addr =
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    trust = 0x0002 (2)
+    security_requirements = 0x0000 (0)
+    encryption_key_size = 0x0006 (6)
+    present = 0x8001 (32769)
+    u =
+        enc_bredr =
+            link_key_type = 0x0004 (4)
+            link_key = 0xacb9b19fc63172c909e3073f70facf7b
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:44.745 ------------------
+DM_SM_ADD_DEVICE_CFM
+    type = 0x03c2 (962)
+    phandle = 0x0010 (16)
+    addrt =
+        type = 0x00 (0) (Public)
+        lap = 0x638c34 (6523956)
+        uap = 0x24 (36)
+        nap = 0xf8ad (63661)
+    status = 0x00 (0)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="#119933"><pre>---- 03:44:44.756 ------------------
+DM_SM_ADD_DEVICE_REQ
+    type = 0x0386 (902)
+    phandle = 0x0010 (16)
+    addrt =
+        type = 0x00 (0) (Public)
+        lap = 0xa44e49 (10767945)
+        uap = 0x25 (37)
+        nap = 0x0825 (2085)
+    privacy = 0x0001 (1)
+    reconnection_bd_addr =
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    trust = 0x0002 (2)
+    security_requirements = 0x0000 (0)
+    encryption_key_size = 0x0006 (6)
+    present = 0x8001 (32769)
+    u =
+        enc_bredr =
+            link_key_type = 0x0004 (4)
+            link_key = 0x587e4b47e1921404252f88d8a3dd7f29
+------------------------------------
+</pre></font>
+<br/></p><p><font color="#119933"><pre>---- 03:44:44.757 ------------------
+DM_SM_ADD_DEVICE_REQ
+    type = 0x0386 (902)
+    phandle = 0x0000 (0)
+    addrt =
+        type = 0x00 (0) (Public)
+        lap = 0xff045f (16712799)
+        uap = 0x8c (140)
+        nap = 0xec4c (60492)
+    privacy = 0x0001 (1)
+    reconnection_bd_addr =
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    trust = 0x0002 (2)
+    security_requirements = 0x0000 (0)
+    encryption_key_size = 0x0006 (6)
+    present = 0x8001 (32769)
+    u =
+        enc_bredr =
+            link_key_type = 0x0004 (4)
+            link_key = 0x5b6a62deed34bb1ddfff5157674f92b9
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:44.757 ------------------
+DM_SM_ADD_DEVICE_CFM
+    type = 0x03c2 (962)
+    phandle = 0x0010 (16)
+    addrt =
+        type = 0x00 (0) (Public)
+        lap = 0xa44e49 (10767945)
+        uap = 0x25 (37)
+        nap = 0x0825 (2085)
+    status = 0x00 (0)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:44.757 ------------------
+DM_SM_ADD_DEVICE_CFM
+    type = 0x03c2 (962)
+    phandle = 0x0010 (16)
+    addrt =
+        type = 0x00 (0) (Public)
+        lap = 0xff045f (16712799)
+        uap = 0x8c (140)
+        nap = 0xec4c (60492)
+    status = 0x00 (0)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="#119933"><pre>---- 03:44:44.770 ------------------
+DM_SM_ADD_DEVICE_REQ
+    type = 0x0386 (902)
+    phandle = 0x0010 (16)
+    addrt =
+        type = 0x00 (0) (Public)
+        lap = 0x638c34 (6523956)
+        uap = 0x24 (36)
+        nap = 0xf8ad (63661)
+    privacy = 0x0001 (1)
+    reconnection_bd_addr =
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    trust = 0x0002 (2)
+    security_requirements = 0x0000 (0)
+    encryption_key_size = 0x0006 (6)
+    present = 0x8001 (32769)
+    u =
+        enc_bredr =
+            link_key_type = 0x0004 (4)
+            link_key = 0xacb9b19fc63172c909e3073f70facf7b
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:44.770 ------------------
+DM_SM_ADD_DEVICE_CFM
+    type = 0x03c2 (962)
+    phandle = 0x0010 (16)
+    addrt =
+        type = 0x00 (0) (Public)
+        lap = 0x638c34 (6523956)
+        uap = 0x24 (36)
+        nap = 0xf8ad (63661)
+    status = 0x00 (0)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="#119933"><pre>---- 03:44:44.801 ------------------
+DM_SET_DEFAULT_LINK_POLICY_REQ
+    type = 0x0306 (774)
+    link_policy_settings_in = 0x0005 (5)
+    link_policy_settings_out = 0x0005 (5)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:44.802 ------------------
+DM_HCI_WRITE_DEFAULT_LINK_POLICY_SETTINGS_CFM
+    type = 0x0a0f (2575)
+    phandle = 0x0010 (16)
+    status = 0x00 (0)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="#119933"><pre>---- 03:44:44.815 ------------------
+DM_HCI_ULP_SET_SCAN_ENABLE_REQ
+    op_code = 0x0318 (792)
+    cmd_parameter_length = 0x04 (4)
+    scan_enable = 0x01 (1)
+    filter_duplicates = 0x01 (1)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:44.816 ------------------
+DM_HCI_ULP_SET_SCAN_ENABLE_CFM
+    type = 0x220c (8716)
+    phandle = 0x0010 (16)
+    status = 0x00 (0)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:45.535 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x00 (0)
+    current_addrt =
+        type = 0x01 (1) (Private Resolvable)
+        lap = 0x01803c (98364)
+        uap = 0x8f (143)
+        nap = 0x67c8 (26568)
+    permanent_addrt =
+        type = 0xff (255) (Invalid Type)
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    length_data = 0x1c (28)
+    data =
+        0x02, 0x01, 0x02, 0x18, 0x16, 0xaa, 0xfe, 0x40, .......@
+        0x31, 0x97, 0x3b, 0xde, 0x3e, 0xdc, 0xa3, 0xd3, 1.;.>...
+        0xab, 0x83, 0xad, 0x72, 0xfe, 0x78, 0x0f, 0x07, ...r.x..
+        0xa2, 0xe6, 0xdb, 0x9f                          ....
+    rssi = 0xc7 (-57)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:45.635 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x00 (0)
+    current_addrt =
+        type = 0x01 (1) (Private Resolvable)
+        lap = 0x34e40a (3466250)
+        uap = 0xa2 (162)
+        nap = 0x6033 (24627)
+    permanent_addrt =
+        type = 0xff (255) (Invalid Type)
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    length_data = 0x11 (17)
+    data =
+        0x02, 0x01, 0x1a, 0x02, 0x0a, 0x0c, 0x0a, 0xff, ........
+        0x4c, 0x00, 0x10, 0x05, 0x10, 0x1c, 0xd4, 0xda, L.......
+        0x17                                            .
+    rssi = 0xa4 (-92)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:45.803 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x03 (3)
+    current_addrt =
+        type = 0x01 (1) (Private Non-Resolvable)
+        lap = 0x9d559c (10311068)
+        uap = 0x0b (11)
+        nap = 0x3a76 (14966)
+    permanent_addrt =
+        type = 0xff (255) (Invalid Type)
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    length_data = 0x1f (31)
+    data =
+        0x1e, 0x16, 0xf3, 0xfe, 0x4a, 0x17, 0x23, 0x33, ....J.#3
+        0x44, 0x4e, 0x53, 0x11, 0x32, 0xef, 0x31, 0xdb, DNS.2.1.
+        0x15, 0xdb, 0x73, 0x83, 0x09, 0x49, 0xe0, 0x88, ..s..I..
+        0x52, 0xb7, 0x94, 0x76, 0x1a, 0x36, 0x5d        R..v.6]
+    rssi = 0xc9 (-55)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:45.906 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x00 (0)
+    current_addrt =
+        type = 0x01 (1) (Private Resolvable)
+        lap = 0x34e40a (3466250)
+        uap = 0xa2 (162)
+        nap = 0x6033 (24627)
+    permanent_addrt =
+        type = 0xff (255) (Invalid Type)
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    length_data = 0x11 (17)
+    data =
+        0x02, 0x01, 0x1a, 0x02, 0x0a, 0x0c, 0x0a, 0xff, ........
+        0x4c, 0x00, 0x10, 0x05, 0x10, 0x1c, 0xd4, 0xda, L.......
+        0x17                                            .
+    rssi = 0xa3 (-93)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:46.827 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x03 (3)
+    current_addrt =
+        type = 0x01 (1) (Private Non-Resolvable)
+        lap = 0x9d559c (10311068)
+        uap = 0x0b (11)
+        nap = 0x3a76 (14966)
+    permanent_addrt =
+        type = 0xff (255) (Invalid Type)
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    length_data = 0x1f (31)
+    data =
+        0x1e, 0x16, 0xf3, 0xfe, 0x4a, 0x17, 0x23, 0x33, ....J.#3
+        0x44, 0x4e, 0x53, 0x11, 0x32, 0xef, 0x31, 0xdb, DNS.2.1.
+        0x15, 0xdb, 0x73, 0x83, 0x09, 0x49, 0xe0, 0x88, ..s..I..
+        0x52, 0xb7, 0x94, 0x76, 0x1a, 0x36, 0x5d        R..v.6]
+    rssi = 0xc8 (-56)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:47.579 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x00 (0)
+    current_addrt =
+        type = 0x01 (1) (Private Resolvable)
+        lap = 0x01803c (98364)
+        uap = 0x8f (143)
+        nap = 0x67c8 (26568)
+    permanent_addrt =
+        type = 0xff (255) (Invalid Type)
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    length_data = 0x1c (28)
+    data =
+        0x02, 0x01, 0x02, 0x18, 0x16, 0xaa, 0xfe, 0x40, .......@
+        0x31, 0x97, 0x3b, 0xde, 0x3e, 0xdc, 0xa3, 0xd3, 1.;.>...
+        0xab, 0x83, 0xad, 0x72, 0xfe, 0x78, 0x0f, 0x07, ...r.x..
+        0xa2, 0xe6, 0xdb, 0x9f                          ....
+    rssi = 0xc6 (-58)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:47.642 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x03 (3)
+    current_addrt =
+        type = 0x01 (1) (Static)
+        lap = 0x19c9f3 (1690099)
+        uap = 0xa9 (169)
+        nap = 0xf2cb (62155)
+    permanent_addrt =
+        type = 0x01 (1) (Static)
+        lap = 0x19c9f3 (1690099)
+        uap = 0xa9 (169)
+        nap = 0xf2cb (62155)
+    length_data = 0x08 (8)
+    data =
+        0x07, 0xff, 0x4c, 0x00, 0x12, 0x02, 0x00, 0x03  ..L.....
+    rssi = 0xa3 (-93)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:47.851 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x03 (3)
+    current_addrt =
+        type = 0x01 (1) (Private Non-Resolvable)
+        lap = 0x9d559c (10311068)
+        uap = 0x0b (11)
+        nap = 0x3a76 (14966)
+    permanent_addrt =
+        type = 0xff (255) (Invalid Type)
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    length_data = 0x1f (31)
+    data =
+        0x1e, 0x16, 0xf3, 0xfe, 0x4a, 0x17, 0x23, 0x33, ....J.#3
+        0x44, 0x4e, 0x53, 0x11, 0x32, 0xef, 0x31, 0xdb, DNS.2.1.
+        0x15, 0xdb, 0x73, 0x83, 0x09, 0x49, 0xe0, 0x88, ..s..I..
+        0x52, 0xb7, 0x94, 0x76, 0x1a, 0x36, 0x5d        R..v.6]
+    rssi = 0xc8 (-56)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:48.874 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x03 (3)
+    current_addrt =
+        type = 0x01 (1) (Private Non-Resolvable)
+        lap = 0x9d559c (10311068)
+        uap = 0x0b (11)
+        nap = 0x3a76 (14966)
+    permanent_addrt =
+        type = 0xff (255) (Invalid Type)
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    length_data = 0x1f (31)
+    data =
+        0x1e, 0x16, 0xf3, 0xfe, 0x4a, 0x17, 0x23, 0x33, ....J.#3
+        0x44, 0x4e, 0x53, 0x11, 0x32, 0xef, 0x31, 0xdb, DNS.2.1.
+        0x15, 0xdb, 0x73, 0x83, 0x09, 0x49, 0xe0, 0x88, ..s..I..
+        0x52, 0xb7, 0x94, 0x76, 0x1a, 0x36, 0x5d        R..v.6]
+    rssi = 0xc8 (-56)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:49.437 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x00 (0)
+    current_addrt =
+        type = 0x01 (1) (Private Resolvable)
+        lap = 0x34e40a (3466250)
+        uap = 0xa2 (162)
+        nap = 0x6033 (24627)
+    permanent_addrt =
+        type = 0xff (255) (Invalid Type)
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    length_data = 0x11 (17)
+    data =
+        0x02, 0x01, 0x1a, 0x02, 0x0a, 0x0c, 0x0a, 0xff, ........
+        0x4c, 0x00, 0x10, 0x05, 0x10, 0x1c, 0xd4, 0xda, L.......
+        0x17                                            .
+    rssi = 0xa3 (-93)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:49.603 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x00 (0)
+    current_addrt =
+        type = 0x01 (1) (Private Resolvable)
+        lap = 0x01803c (98364)
+        uap = 0x8f (143)
+        nap = 0x67c8 (26568)
+    permanent_addrt =
+        type = 0xff (255) (Invalid Type)
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    length_data = 0x1c (28)
+    data =
+        0x02, 0x01, 0x02, 0x18, 0x16, 0xaa, 0xfe, 0x40, .......@
+        0x31, 0x97, 0x3b, 0xde, 0x3e, 0xdc, 0xa3, 0xd3, 1.;.>...
+        0xab, 0x83, 0xad, 0x72, 0xfe, 0x78, 0x0f, 0x07, ...r.x..
+        0xa2, 0xe6, 0xdb, 0x9f                          ....
+    rssi = 0xc4 (-60)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:49.891 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x03 (3)
+    current_addrt =
+        type = 0x01 (1) (Private Non-Resolvable)
+        lap = 0x9d559c (10311068)
+        uap = 0x0b (11)
+        nap = 0x3a76 (14966)
+    permanent_addrt =
+        type = 0xff (255) (Invalid Type)
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    length_data = 0x1f (31)
+    data =
+        0x1e, 0x16, 0xf3, 0xfe, 0x4a, 0x17, 0x23, 0x33, ....J.#3
+        0x44, 0x4e, 0x53, 0x11, 0x32, 0xef, 0x31, 0xdb, DNS.2.1.
+        0x15, 0xdb, 0x73, 0x83, 0x09, 0x49, 0xe0, 0x88, ..s..I..
+        0x52, 0xb7, 0x94, 0x76, 0x1a, 0x36, 0x5d        R..v.6]
+    rssi = 0xc8 (-56)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:49.981 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x00 (0)
+    current_addrt =
+        type = 0x01 (1) (Private Resolvable)
+        lap = 0x34e40a (3466250)
+        uap = 0xa2 (162)
+        nap = 0x6033 (24627)
+    permanent_addrt =
+        type = 0xff (255) (Invalid Type)
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    length_data = 0x11 (17)
+    data =
+        0x02, 0x01, 0x1a, 0x02, 0x0a, 0x0c, 0x0a, 0xff, ........
+        0x4c, 0x00, 0x10, 0x05, 0x10, 0x1c, 0xd4, 0xda, L.......
+        0x17                                            .
+    rssi = 0xa4 (-92)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:50.251 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x00 (0)
+    current_addrt =
+        type = 0x01 (1) (Private Resolvable)
+        lap = 0x34e40a (3466250)
+        uap = 0xa2 (162)
+        nap = 0x6033 (24627)
+    permanent_addrt =
+        type = 0xff (255) (Invalid Type)
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    length_data = 0x11 (17)
+    data =
+        0x02, 0x01, 0x1a, 0x02, 0x0a, 0x0c, 0x0a, 0xff, ........
+        0x4c, 0x00, 0x10, 0x05, 0x10, 0x1c, 0xd4, 0xda, L.......
+        0x17                                            .
+    rssi = 0xa4 (-92)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:50.521 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x00 (0)
+    current_addrt =
+        type = 0x01 (1) (Private Resolvable)
+        lap = 0x34e40a (3466250)
+        uap = 0xa2 (162)
+        nap = 0x6033 (24627)
+    permanent_addrt =
+        type = 0xff (255) (Invalid Type)
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    length_data = 0x11 (17)
+    data =
+        0x02, 0x01, 0x1a, 0x02, 0x0a, 0x0c, 0x0a, 0xff, ........
+        0x4c, 0x00, 0x10, 0x05, 0x10, 0x1c, 0xd4, 0xda, L.......
+        0x17                                            .
+    rssi = 0xa5 (-91)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:50.793 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x00 (0)
+    current_addrt =
+        type = 0x01 (1) (Private Resolvable)
+        lap = 0x34e40a (3466250)
+        uap = 0xa2 (162)
+        nap = 0x6033 (24627)
+    permanent_addrt =
+        type = 0xff (255) (Invalid Type)
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    length_data = 0x11 (17)
+    data =
+        0x02, 0x01, 0x1a, 0x02, 0x0a, 0x0c, 0x0a, 0xff, ........
+        0x4c, 0x00, 0x10, 0x05, 0x10, 0x1c, 0xd4, 0xda, L.......
+        0x17                                            .
+    rssi = 0xa4 (-92)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:51.922 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x03 (3)
+    current_addrt =
+        type = 0x01 (1) (Private Non-Resolvable)
+        lap = 0x9d559c (10311068)
+        uap = 0x0b (11)
+        nap = 0x3a76 (14966)
+    permanent_addrt =
+        type = 0xff (255) (Invalid Type)
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    length_data = 0x1f (31)
+    data =
+        0x1e, 0x16, 0xf3, 0xfe, 0x4a, 0x17, 0x23, 0x33, ....J.#3
+        0x44, 0x4e, 0x53, 0x11, 0x32, 0xef, 0x31, 0xdb, DNS.2.1.
+        0x15, 0xdb, 0x73, 0x83, 0x09, 0x49, 0xe0, 0x88, ..s..I..
+        0x52, 0xb7, 0x94, 0x76, 0x1a, 0x36, 0x5d        R..v.6]
+    rssi = 0xc9 (-55)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:52.941 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x03 (3)
+    current_addrt =
+        type = 0x01 (1) (Private Non-Resolvable)
+        lap = 0x9d559c (10311068)
+        uap = 0x0b (11)
+        nap = 0x3a76 (14966)
+    permanent_addrt =
+        type = 0xff (255) (Invalid Type)
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    length_data = 0x1f (31)
+    data =
+        0x1e, 0x16, 0xf3, 0xfe, 0x4a, 0x17, 0x23, 0x33, ....J.#3
+        0x44, 0x4e, 0x53, 0x11, 0x32, 0xef, 0x31, 0xdb, DNS.2.1.
+        0x15, 0xdb, 0x73, 0x83, 0x09, 0x49, 0xe0, 0x88, ..s..I..
+        0x52, 0xb7, 0x94, 0x76, 0x1a, 0x36, 0x5d        R..v.6]
+    rssi = 0xc9 (-55)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:53.644 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x03 (3)
+    current_addrt =
+        type = 0x01 (1) (Static)
+        lap = 0x19c9f3 (1690099)
+        uap = 0xa9 (169)
+        nap = 0xf2cb (62155)
+    permanent_addrt =
+        type = 0x01 (1) (Static)
+        lap = 0x19c9f3 (1690099)
+        uap = 0xa9 (169)
+        nap = 0xf2cb (62155)
+    length_data = 0x08 (8)
+    data =
+        0x07, 0xff, 0x4c, 0x00, 0x12, 0x02, 0x00, 0x03  ..L.....
+    rssi = 0xa2 (-94)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:53.672 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x00 (0)
+    current_addrt =
+        type = 0x01 (1) (Private Resolvable)
+        lap = 0x01803c (98364)
+        uap = 0x8f (143)
+        nap = 0x67c8 (26568)
+    permanent_addrt =
+        type = 0xff (255) (Invalid Type)
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    length_data = 0x1c (28)
+    data =
+        0x02, 0x01, 0x02, 0x18, 0x16, 0xaa, 0xfe, 0x40, .......@
+        0x31, 0x97, 0x3b, 0xde, 0x3e, 0xdc, 0xa3, 0xd3, 1.;.>...
+        0xab, 0x83, 0xad, 0x72, 0xfe, 0x78, 0x0f, 0x07, ...r.x..
+        0xa2, 0xe6, 0xdb, 0x9f                          ....
+    rssi = 0xc6 (-58)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:53.958 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x03 (3)
+    current_addrt =
+        type = 0x01 (1) (Private Non-Resolvable)
+        lap = 0x9d559c (10311068)
+        uap = 0x0b (11)
+        nap = 0x3a76 (14966)
+    permanent_addrt =
+        type = 0xff (255) (Invalid Type)
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    length_data = 0x1f (31)
+    data =
+        0x1e, 0x16, 0xf3, 0xfe, 0x4a, 0x17, 0x23, 0x33, ....J.#3
+        0x44, 0x4e, 0x53, 0x11, 0x32, 0xef, 0x31, 0xdb, DNS.2.1.
+        0x15, 0xdb, 0x73, 0x83, 0x09, 0x49, 0xe0, 0x88, ..s..I..
+        0x52, 0xb7, 0x94, 0x76, 0x1a, 0x36, 0x5d        R..v.6]
+    rssi = 0xc9 (-55)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:54.600 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x00 (0)
+    current_addrt =
+        type = 0x01 (1) (Private Resolvable)
+        lap = 0x34e40a (3466250)
+        uap = 0xa2 (162)
+        nap = 0x6033 (24627)
+    permanent_addrt =
+        type = 0xff (255) (Invalid Type)
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    length_data = 0x11 (17)
+    data =
+        0x02, 0x01, 0x1a, 0x02, 0x0a, 0x0c, 0x0a, 0xff, ........
+        0x4c, 0x00, 0x10, 0x05, 0x10, 0x1c, 0xd4, 0xda, L.......
+        0x17                                            .
+    rssi = 0xa5 (-91)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:54.871 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x00 (0)
+    current_addrt =
+        type = 0x01 (1) (Private Resolvable)
+        lap = 0x34e40a (3466250)
+        uap = 0xa2 (162)
+        nap = 0x6033 (24627)
+    permanent_addrt =
+        type = 0xff (255) (Invalid Type)
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    length_data = 0x11 (17)
+    data =
+        0x02, 0x01, 0x1a, 0x02, 0x0a, 0x0c, 0x0a, 0xff, ........
+        0x4c, 0x00, 0x10, 0x05, 0x10, 0x1c, 0xd4, 0xda, L.......
+        0x17                                            .
+    rssi = 0xa4 (-92)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:54.976 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x03 (3)
+    current_addrt =
+        type = 0x01 (1) (Private Non-Resolvable)
+        lap = 0x9d559c (10311068)
+        uap = 0x0b (11)
+        nap = 0x3a76 (14966)
+    permanent_addrt =
+        type = 0xff (255) (Invalid Type)
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    length_data = 0x1f (31)
+    data =
+        0x1e, 0x16, 0xf3, 0xfe, 0x4a, 0x17, 0x23, 0x33, ....J.#3
+        0x44, 0x4e, 0x53, 0x11, 0x32, 0xef, 0x31, 0xdb, DNS.2.1.
+        0x15, 0xdb, 0x73, 0x83, 0x09, 0x49, 0xe0, 0x88, ..s..I..
+        0x52, 0xb7, 0x94, 0x76, 0x1a, 0x36, 0x5d        R..v.6]
+    rssi = 0xc1 (-63)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:55.649 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x03 (3)
+    current_addrt =
+        type = 0x01 (1) (Static)
+        lap = 0x19c9f3 (1690099)
+        uap = 0xa9 (169)
+        nap = 0xf2cb (62155)
+    permanent_addrt =
+        type = 0x01 (1) (Static)
+        lap = 0x19c9f3 (1690099)
+        uap = 0xa9 (169)
+        nap = 0xf2cb (62155)
+    length_data = 0x08 (8)
+    data =
+        0x07, 0xff, 0x4c, 0x00, 0x12, 0x02, 0x00, 0x03  ..L.....
+    rssi = 0xa3 (-93)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:55.715 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x00 (0)
+    current_addrt =
+        type = 0x01 (1) (Private Resolvable)
+        lap = 0x01803c (98364)
+        uap = 0x8f (143)
+        nap = 0x67c8 (26568)
+    permanent_addrt =
+        type = 0xff (255) (Invalid Type)
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    length_data = 0x1c (28)
+    data =
+        0x02, 0x01, 0x02, 0x18, 0x16, 0xaa, 0xfe, 0x40, .......@
+        0x31, 0x97, 0x3b, 0xde, 0x3e, 0xdc, 0xa3, 0xd3, 1.;.>...
+        0xab, 0x83, 0xad, 0x72, 0xfe, 0x78, 0x0f, 0x07, ...r.x..
+        0xa2, 0xe6, 0xdb, 0x9f                          ....
+    rssi = 0xc6 (-58)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:55.998 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x03 (3)
+    current_addrt =
+        type = 0x01 (1) (Private Non-Resolvable)
+        lap = 0x9d559c (10311068)
+        uap = 0x0b (11)
+        nap = 0x3a76 (14966)
+    permanent_addrt =
+        type = 0xff (255) (Invalid Type)
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    length_data = 0x1f (31)
+    data =
+        0x1e, 0x16, 0xf3, 0xfe, 0x4a, 0x17, 0x23, 0x33, ....J.#3
+        0x44, 0x4e, 0x53, 0x11, 0x32, 0xef, 0x31, 0xdb, DNS.2.1.
+        0x15, 0xdb, 0x73, 0x83, 0x09, 0x49, 0xe0, 0x88, ..s..I..
+        0x52, 0xb7, 0x94, 0x76, 0x1a, 0x36, 0x5d        R..v.6]
+    rssi = 0xc8 (-56)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:57.751 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x00 (0)
+    current_addrt =
+        type = 0x01 (1) (Private Resolvable)
+        lap = 0x01803c (98364)
+        uap = 0x8f (143)
+        nap = 0x67c8 (26568)
+    permanent_addrt =
+        type = 0xff (255) (Invalid Type)
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    length_data = 0x1c (28)
+    data =
+        0x02, 0x01, 0x02, 0x18, 0x16, 0xaa, 0xfe, 0x40, .......@
+        0x31, 0x97, 0x3b, 0xde, 0x3e, 0xdc, 0xa3, 0xd3, 1.;.>...
+        0xab, 0x83, 0xad, 0x72, 0xfe, 0x78, 0x0f, 0x07, ...r.x..
+        0xa2, 0xe6, 0xdb, 0x9f                          ....
+    rssi = 0xc6 (-58)
+------------------------------------
+</pre></font>
+<br/></p><p><font color="blue"><pre>---- 03:44:58.034 ------------------
+DM_HCI_ULP_ADVERTISING_REPORT_IND
+    type = 0x0019 (25)
+    phandle = 0x0010 (16)
+    num_reports = 0x01 (1)
+    event_type = 0x03 (3)
+    current_addrt =
+        type = 0x01 (1) (Private Non-Resolvable)
+        lap = 0x9d559c (10311068)
+        uap = 0x0b (11)
+        nap = 0x3a76 (14966)
+    permanent_addrt =
+        type = 0xff (255) (Invalid Type)
+        lap = 0x000000 (0)
+        uap = 0x00 (0)
+        nap = 0x0000 (0)
+    length_data = 0x1f (31)
+    data =
+        0x1e, 0x16, 0xf3, 0xfe, 0x4a, 0x17, 0x23, 0x33, ....J.#3
+        0x44, 0x4e, 0x53, 0x11, 0x32, 0xef, 0x31, 0xdb, DNS.2.1.
+        0x15, 0xdb, 0x73, 0x83, 0x09, 0x49, 0xe0, 0x88, ..s..I..
+        0x52, 0xb7, 0x94, 0x76, 0x1a, 0x36, 0x5d        R..v.6]
+    rssi = 0xc2 (-62)
+------------------------------------
+</pre></font>
+<br/></p>
